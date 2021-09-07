@@ -18,18 +18,18 @@ const useStyles = makeStyles((theme) => ({
     border: '2px solid black',
 
     [theme.breakpoints.down('xs')]: {
-      width: '90%',
-    },
+      width: '90%'
+    }
   },
   image: {
-    marginLeft: '15px',
+    marginLeft: '15px'
   },
   wrapper: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    width: '100%',
-  },
+    width: '100%'
+  }
 }));
 
 const App = () => {
@@ -37,8 +37,10 @@ const App = () => {
 
   return (
     <div className={classes.wrapper}>
-      <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography variant="h2" align="center">Video Chat</Typography>
+      <AppBar className={classes.appBar} position='static' color='inherit'>
+        <Typography variant='h2' align='center'>
+          Foom
+        </Typography>
       </AppBar>
       <VideoPlayer />
       <Sidebar>
